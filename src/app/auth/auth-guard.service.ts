@@ -55,8 +55,10 @@ export class AuthGuardService implements CanActivate, CanActivateChild, CanLoad 
 			return false;
 		}
 
-		//const hasAccess = this.oauthService.hasUserRole(Role.HaUI, claims);
-		const hasAccess = true;
+		const hasAccess = this.oauthService.hasUserRole(Role.HaUI, claims);
+		console.log("Bororo");
+		console.log(hasAccess);
+		 hasAccess = true;
 		if (!hasAccess) {
 			console.log(claims);
 			//this.window.location.href = `https://www.eiam.admin.ch/?c=f!403pts!pub&l=${this.translate.currentLang}`;
