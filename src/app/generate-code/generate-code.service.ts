@@ -17,5 +17,6 @@ export class GenerateCodeService {
 			map(result => result.authorizationCode),
 			map(authCode => authCode.match(/(.{3})/g).join(' '))
 		);
+		console.log("xpto");
 	}
 }
