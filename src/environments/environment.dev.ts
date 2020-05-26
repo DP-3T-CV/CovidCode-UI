@@ -7,7 +7,7 @@ export const environment = {
 	showWarning: true,
 	host: 'http://172.18.50.35:84',
 	eiamSelfAdmin:
-		'http://172.18.50.50:8080',
+		'http://0.0.0.50:8080',
 	oidc: {
 		clientId: 'CovidCode-UI',
 		afterLoginPath: '/generate-code',
