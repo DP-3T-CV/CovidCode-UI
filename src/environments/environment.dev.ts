@@ -11,7 +11,7 @@ export const environment = {
 	oidc: {
 		clientId: 'CovidCode-UI',
 		afterLoginPath: '/generate-code',
-		stsServer: 'http://keycloak.uniteltmais.cv//realms/cv-covid-code',
+		stsServer: 'http://keycloak.uniteltmais.cv/realms/cv-covid-code',
 		applicationUrl: 'http://covidcodeui.uniteltmais.cv/auth/login-feedback/',
 		post_logout_redirect_uri: 'http://covidcodeui.uniteltmais.cv/',
 		silentRenew: true,
