@@ -1,7 +1,7 @@
 export const environment = {
 	production: true,
 	showWarning: true,
-	host: 'http://172.18.50.35:4200',
+	host: 'http://172.18.50.35:84',
 	eiamSelfAdmin:
 		'http://172.18.50.35:8080',
 	oidc: {
