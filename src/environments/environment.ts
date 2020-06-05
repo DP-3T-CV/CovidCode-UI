@@ -1,18 +1,20 @@
+import {OIdC} from '../app/auth/open-id-config-service';
+
 export const environment = {
 	production: true,
 	showWarning: true,
-	host: 'http://covidcodeservice.uniteltmais.cv',
+	host: 'http://172.18.50.35:84',
 	eiamSelfAdmin:
 		'http://0.0.0.50:8080',
 	oidc: {
 		clientId: 'CovidCode-UI',
-		afterLoginPath: '/generate-code',
-		stsServer: 'http://keycloak.uniteltmais.cv/auth/realms/cv-covid-code',
-		applicationUrl: 'http://covidcodeui.uniteltmais.cv/auth/login-feedback/',
-		post_logout_redirect_uri: 'http://covidcodeui.uniteltmais.cv/',
+		afterLoginPath: 'generate-code',
+		stsServer: 'http://keycloak.uniteltmais.cv/realms/cv-covid-code',
+		applicationUrl: 'http://covidcodeui.uniteltmais.cv/',
+		loginFeedback: 'auth/login-feedback/',
 		silentRenew: true,
 		useAutoLogin: false,
 		debug: true,
-		token_aware_url_patterns: ['/v1/(authcode).*']
-	}
+		tokenAwareUrlPatterns: ['/v1/(authcode).*']
+	} as OIdC
 };
