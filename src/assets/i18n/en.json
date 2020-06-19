@@ -1,6 +1,6 @@
 ﻿{
-  "application.title": "Covidcode FOPH",
-  "application.organization.name": "Federal Office of Information Technology, Systems and Telecommunication FOITT",
+  "application.title": "Covidcode - NaNosMon",
+  "application.organization.name": "NaNosMon",
   "generate-code.generate": "Generate Covidcode",
   "generate-code.onset": "Date of first symptoms",
   "generate-code.hint": "Date of first symptoms, \"dd/mm/yyyy\"",

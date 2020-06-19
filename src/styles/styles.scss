@@ -5,6 +5,14 @@ body {
 	min-width: 248px;
 }
 
+.application-brand-logo {
+	display: none;
+}
+
+.application-header .header {
+	border-bottom: 5px solid #006599 !important;
+}
+
 .application-footer .info {
 	white-space: nowrap;
 	overflow: hidden;

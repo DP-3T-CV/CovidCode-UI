@@ -1,6 +1,6 @@
 ﻿{
-  "application.title": "Covidcode OFSP",
-  "application.organization.name": "Office fédéral de l'informatique et de la télécommunication OFIT",
+  "application.title": "Covidcode - NaNosMon",
+  "application.organization.name": "NaNosMon",
   "generate-code.generate": "Générer Covidcode",
   "generate-code.onset": "Date des premiers symptômes",
   "generate-code.hint": "Date des premiers symptômes, \"jj.mm.aaaa\"",

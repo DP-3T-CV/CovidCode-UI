@@ -1,6 +1,6 @@
 ﻿{
-  "application.title": "Covidcode BAG",
-  "application.organization.name": "Bundesamt für Informatik und Telekommunikation BIT",
+  "application.title": "Covidcode - NaNosMon",
+  "application.organization.name": "NaNosMon",
   "generate-code.generate": "Covidcode erzeugen",
   "generate-code.onset": "Datum Erstsymptome",
   "generate-code.hint": "Datum Erstsymptome, \"tt.mm.jjjj\"",

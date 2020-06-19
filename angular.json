@@ -235,5 +235,8 @@
       }
     }
   },
-  "defaultProject": "ha-ui"
+  "defaultProject": "ha-ui",
+  "cli": {
+    "analytics": false
+  }
 }
