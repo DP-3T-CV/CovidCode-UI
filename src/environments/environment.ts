@@ -1,10 +1,10 @@
 import {OIdC} from '../app/auth/open-id-config-service';
-
 export const environment = {
 	production: true,
 	showWarning: true,
-	host: 'https://covidcodeservice.nanosmon.cv/',
-	eiamSelfAdmin: 'https://keycloak.nanosmon.cv',
+	host: 'http://covidcodeservice.uniteltmais.cv/',
+	eiamSelfAdmin:
+		'https://keycloak.nanosmon.cv',
 	oidc: {
 		clientId: 'CovidCode-UI',
 		afterLoginPath: 'generate-code',
