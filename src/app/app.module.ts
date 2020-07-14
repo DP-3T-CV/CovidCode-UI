@@ -50,7 +50,7 @@ registerLocaleData(localeENGB);
 		ObSpinnerModule
 	],
 	providers: [
-		{provide: LOCALE_ID, useValue: 'de-CH'},
+		{provide: LOCALE_ID, useValue: 'en-GB'},
 		{provide: HTTP_INTERCEPTORS, useClass: ObHttpApiInterceptor, multi: true},
 		{provide: HTTP_INTERCEPTORS, useClass: HttpConfigInterceptor, multi: true},
 		OidcConfigService,
