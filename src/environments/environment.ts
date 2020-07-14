@@ -8,7 +8,7 @@ export const environment = {
 	oidc: {
 		clientId: 'CovidCode-UI',
 		afterLoginPath: 'generate-code',
-		stsServer: 'https://keycloak.nanosmon.cv/auth/realms/Cv-covid-code',
+		stsServer: 'https://keycloak.nanosmon.cv/auth/realms/cv-covid-code',
 		applicationUrl: 'https://covidcodeui.nanosmon.cv/',
 		loginFeedback: 'auth/login-feedback/',
 		silentRenew: true,
