@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: covidcode-ui
+  namespace: covidcode-ui
+spec:
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: covidcode-ui
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: covidcode-ui
+    spec:
+      containers:
+      - image: "registry.nosi.cv/na_nos_mon/covidcodeui:$BUILD_NUMBER"
+        imagePullPolicy: IfNotPresent
+        name: covidcode-ui
+        ports:
+        - containerPort: 4200
+          name: covidcode-ui
+          protocol: TCP
+      imagePullSecrets:
+      - name: nanosmon
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      terminationGracePeriodSeconds: 30
