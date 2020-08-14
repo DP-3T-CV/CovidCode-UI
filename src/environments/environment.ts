@@ -11,7 +11,7 @@ export const environment = {
 		stsServer: 'http://keycloak.nanosmon.cv/auth/realms/cv-covid-code',
 		applicationUrl: 'http://covidcodeui.uniteltmais.cv/',
 		loginFeedback: 'auth/login-feedback/',
-		max_id_token_iat_offset_allowed_in_seconds:'9000',
+		max_id_token_iat_offset_allowed_in_seconds:'40000',
 		silentRenew: true,
 		useAutoLogin: false,
 		debug: true,
