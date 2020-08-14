@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: covidcode-ui
-  namespace: covidcode-ui
+  namespace: keycloak
 spec:
   replicas: 1
   revisionHistoryLimit: 10
