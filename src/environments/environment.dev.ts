@@ -5,7 +5,7 @@ export const environment = {
 	showWarning: true,
 	host: 'http://covidcodeservice.uniteltmais.cv/',
 	eiamSelfAdmin:
-		'http://keycloak.uniteltmais.cv',
+		'http://keycloak.nanosmon.cv',
 	oidc: {
 		clientId: 'CovidCode-UI',
 		afterLoginPath: 'generate-code',
