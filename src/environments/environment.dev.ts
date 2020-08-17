@@ -3,7 +3,7 @@ import {OIdC} from '../app/auth/open-id-config-service';
 export const environment = {
 	production: true,
 	showWarning: true,
-	host: 'http://covidcodeservice.nanosmon.cv/',
+	host: 'http://covidcodeservice.nanosmon.cv',
 	eiamSelfAdmin:
 		'http://keycloak.uniteltmais.cv',
 	oidc: {
