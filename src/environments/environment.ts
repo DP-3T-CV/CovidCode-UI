@@ -2,7 +2,7 @@ import {OIdC} from '../app/auth/open-id-config-service';
 export const environment = {
 	production: true,
 	showWarning: true,
-	host: 'http://172.16.6.2:84',
+	host: 'http://covidcodeservice.uniteltmais.cv/',
 	eiamSelfAdmin:
 		'http://keycloak.uniteltmais.cv',
 	oidc: {
