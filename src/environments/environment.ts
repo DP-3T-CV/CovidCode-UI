@@ -9,7 +9,7 @@ export const environment = {
 		clientId: 'CovidCode-UI',
 		afterLoginPath: 'generate-code',
 		stsServer: 'http://keycloak.uniteltmais.cv/auth/realms/cv-covid-code',
-		applicationUrl: 'http://covidcodeui.uniteltmais.cv/',
+		applicationUrl: 'http://covidcodeui.nanosmon.cv/',
 		loginFeedback: 'auth/login-feedback/',
 		silentRenew: true,
 		useAutoLogin: false,
