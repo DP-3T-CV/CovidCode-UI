@@ -12,7 +12,7 @@ export const environment = {
 		stsServer: 'http://keycloak.nanosmon.cv/auth/realms/cv-covid-code',
 		applicationUrl: 'http://covidcodeui.nanosmon.cv/',
 		loginFeedback: 'auth/login-feedback/',
-		max_id_token_iat_offset_allowed_in_seconds: 60000,
+		max_id_token_iat_offset_allowed_in_seconds: 600000,
 		silentRenew: true,
 		useAutoLogin: false,
 		debug: true,
