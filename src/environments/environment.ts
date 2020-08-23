@@ -10,7 +10,6 @@ export const environment = {
 		afterLoginPath: 'generate-code',
 		stsServer: 'http://keycloak.uniteltmais.cv/auth/realms/cv-covid-code',
 		applicationUrl: 'http://covidcodeui.nanosmon.cv/',
-		max_id_token_iat_offset_allowed_in_seconds: 600000,
 		loginFeedback: 'auth/login-feedback/',
 		silentRenew: true,
 		useAutoLogin: false,
