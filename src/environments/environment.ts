@@ -4,7 +4,7 @@ export const environment = {
 	showWarning: true,
 	host: 'https://covidcodeservice.nanosmon.cv',
 	eiamSelfAdmin:
-		'https://10.4.2.239:30876',
+		'https://keycloak.nanosmon.cv',
 	oidc: {
 		clientId: 'CovidCode-UI',
 		afterLoginPath: 'generate-code',
