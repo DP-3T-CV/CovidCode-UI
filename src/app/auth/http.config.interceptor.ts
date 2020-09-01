@@ -12,6 +12,6 @@ export class HttpConfigInterceptor implements HttpInterceptor {
 		const token = this.securityService.getToken();
 		return !this.config.urlPattern.filter(pattern => request.url.match(pattern)).length || !token
 			? next.handle(request)
-			: next.handle(request.clone({setHeaders: {Authorization: `Bearer ${token}`}}));
+			: next.handle(request.clone({setHeaders: {Authorization: `Bearer ${token}`, 'Access-Control-Allow-Origin':'http://covidcodeui.nanosmon.cv/'}}));
 	}
 }
